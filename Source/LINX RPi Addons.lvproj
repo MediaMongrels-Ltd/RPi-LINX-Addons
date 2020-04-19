@@ -104,6 +104,7 @@ AddOutputFilter chunkFilter
 			<Item Name="LINX-AutomationHat.lvclass" Type="LVClass" URL="../LINX-AutomationHat/LINX-AutomationHat.lvclass"/>
 		</Item>
 		<Item Name="Low-Level" Type="Folder">
+			<Item Name="LINX GPIO.lvclass" Type="LVClass" URL="../GPIO/LINX GPIO.lvclass"/>
 			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../LINX I2C/LINX I2C.lvclass"/>
 		</Item>
 		<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
@@ -125,6 +126,7 @@ AddOutputFilter chunkFilter
 				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO Generic Hardware Reference.ctl"/>
 				<Item Name="myRIO v1.0 Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO v1.0 Reference.ctl"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Read.vi"/>
 				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/I2C/vis/Read.vi"/>
 				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/vis/Reset myRIO.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Smart Open.vi"/>
