@@ -92,8 +92,13 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Chip Drivers" Type="Folder">
-			<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
-			<Item Name="LINX-SN3218.lvclass" Type="LVClass" URL="../LINX-SN3218/LINX-SN3218.lvclass"/>
+			<Item Name="ADC" Type="Folder">
+				<Item Name="LINX-ADS1X15.lvclass" Type="LVClass" URL="../LINX-ADS1015/LINX-ADS1X15.lvclass"/>
+			</Item>
+			<Item Name="PWM/LED" Type="Folder">
+				<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
+				<Item Name="LINX-SN3218.lvclass" Type="LVClass" URL="../LINX-SN3218/LINX-SN3218.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Hats" Type="Folder">
 			<Item Name="LINX-AutomationHat.lvclass" Type="LVClass" URL="../LINX-AutomationHat/LINX-AutomationHat.lvclass"/>
@@ -101,6 +106,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Low-Level" Type="Folder">
 			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../LINX I2C/LINX I2C.lvclass"/>
 		</Item>
+		<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
 		<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
 		<Item Name="Servo Drive Test.vi" Type="VI" URL="../Examples/Servo Drive Test.vi"/>
 		<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
@@ -123,6 +129,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Reset myRIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/vis/Reset myRIO.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Smart Open.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/I2C/vis/Smart Open.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
