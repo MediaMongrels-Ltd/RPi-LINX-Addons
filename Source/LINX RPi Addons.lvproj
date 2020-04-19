@@ -94,7 +94,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Chip Drivers" Type="Folder">
 			<Item Name="ADC" Type="Folder">
 				<Item Name="LINX-ADS1X15.lvclass" Type="LVClass" URL="../LINX-ADS1015/LINX-ADS1X15.lvclass"/>
-				<Item Name="New ADS1X15.vi" Type="VI" URL="../LINX-ADS1015/New ADS1X15.vi"/>
 			</Item>
 			<Item Name="PWM/LED" Type="Folder">
 				<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
