@@ -23,6 +23,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -95,6 +96,11 @@ AddOutputFilter chunkFilter
 			<Item Name="ADC" Type="Folder">
 				<Item Name="LINX-ADS1X15.lvclass" Type="LVClass" URL="../LINX-ADS1015/LINX-ADS1X15.lvclass"/>
 			</Item>
+			<Item Name="Environmental" Type="Folder">
+				<Item Name="Barometer" Type="Folder">
+					<Item Name="LPS Barometric Pressure Sensor.lvclass" Type="LVClass" URL="../LPS Barometric Pressure/LPS Barometric Pressure Sensor.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="PWM/LED" Type="Folder">
 				<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
 				<Item Name="LINX-SN3218.lvclass" Type="LVClass" URL="../LINX-SN3218/LINX-SN3218.lvclass"/>
@@ -107,10 +113,13 @@ AddOutputFilter chunkFilter
 			<Item Name="LINX GPIO.lvclass" Type="LVClass" URL="../GPIO/LINX GPIO.lvclass"/>
 			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../LINX I2C/LINX I2C.lvclass"/>
 		</Item>
-		<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
-		<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
-		<Item Name="Servo Drive Test.vi" Type="VI" URL="../Examples/Servo Drive Test.vi"/>
-		<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
+			<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
+			<Item Name="Servo Drive Test.vi" Type="VI" URL="../Examples/Servo Drive Test.vi"/>
+			<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
+			<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Configure.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/I2C/vis/Configure.vi"/>
