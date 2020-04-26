@@ -99,6 +99,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Environmental" Type="Folder">
 				<Item Name="Barometer" Type="Folder">
 					<Item Name="LPS Barometric Pressure Sensor.lvclass" Type="LVClass" URL="../LPS Barometric Pressure/LPS Barometric Pressure Sensor.lvclass"/>
+					<Item Name="HTS221.lvclass" Type="LVClass" URL="../HTS221/HTS221.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="PWM/LED" Type="Folder">
@@ -108,6 +109,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Hats" Type="Folder">
 			<Item Name="LINX-AutomationHat.lvclass" Type="LVClass" URL="../LINX-AutomationHat/LINX-AutomationHat.lvclass"/>
+			<Item Name="LINX-SenseHat.lvclass" Type="LVClass" URL="../LINX-SenseHat/LINX-SenseHat.lvclass"/>
 		</Item>
 		<Item Name="Low-Level" Type="Folder">
 			<Item Name="LINX GPIO.lvclass" Type="LVClass" URL="../GPIO/LINX GPIO.lvclass"/>
@@ -118,6 +120,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
 			<Item Name="Servo Drive Test.vi" Type="VI" URL="../Examples/Servo Drive Test.vi"/>
 			<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
+			<Item Name="HTS221 Example.vi" Type="VI" URL="../Examples/HTS221 Example.vi"/>
 			<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
