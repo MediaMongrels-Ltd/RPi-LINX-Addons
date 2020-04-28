@@ -25,3 +25,9 @@ The library includes a basic example of each chip/hat type.
 
 ## Contributions
 We're always looking to add/improve support for new devices - if you wish to contribute to this repository then please fork, make your changes and then submit a pull request.
+
+## Support
+This library is intended to be a community effort and as such therefore support is provided through the GitHub issue tracker. If you run into a problem when using the library then please add it to the Issues page and submit it there.
+
+## Need something in particular?
+If you want to use a particular chip/device and the library doesn't have support for it - feel free to request a new device by submitting an issue to the issue tracker on GitHub. If we can get access to the hardware to test and there's sufficient interest we will try to add support for it.
