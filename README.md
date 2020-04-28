@@ -22,3 +22,6 @@ The package also includes wrappers for the low-level LINX functionality for the 
 
 ## Examples
 The library includes a basic example of each chip/hat type.
+
+## Contributions
+We're always looking to add/improve support for new devices - if you wish to contribute to this repository then please fork, make your changes and then submit a pull request.
