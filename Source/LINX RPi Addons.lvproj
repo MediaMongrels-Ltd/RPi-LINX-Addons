@@ -101,6 +101,9 @@ AddOutputFilter chunkFilter
 					<Item Name="LPS Barometric Pressure Sensor.lvclass" Type="LVClass" URL="../LPS Barometric Pressure/LPS Barometric Pressure Sensor.lvclass"/>
 					<Item Name="HTS221.lvclass" Type="LVClass" URL="../HTS221/HTS221.lvclass"/>
 				</Item>
+				<Item Name="IMU" Type="Folder">
+					<Item Name="LSM9DS1 IMU.lvclass" Type="LVClass" URL="../LSM9DS1/LSM9DS1 IMU.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="PWM/LED" Type="Folder">
 				<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
@@ -116,12 +119,18 @@ AddOutputFilter chunkFilter
 			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../LINX I2C/LINX I2C.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
-			<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
-			<Item Name="Servo Drive Test.vi" Type="VI" URL="../Examples/Servo Drive Test.vi"/>
-			<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
-			<Item Name="HTS221 Example.vi" Type="VI" URL="../Examples/HTS221 Example.vi"/>
-			<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
+			<Item Name="Hats" Type="Folder">
+				<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
+				<Item Name="Sense Hat Example.vi" Type="VI" URL="../Examples/Sense Hat Example.vi"/>
+			</Item>
+			<Item Name="Chips" Type="Folder">
+				<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
+				<Item Name="PCA9685 Servo Test.vi" Type="VI" URL="../Examples/PCA9685 Servo Test.vi"/>
+				<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
+				<Item Name="HTS221 Example.vi" Type="VI" URL="../Examples/HTS221 Example.vi"/>
+				<Item Name="LSM9DS1 IMU Example.vi" Type="VI" URL="../Examples/LSM9DS1 IMU Example.vi"/>
+				<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -150,6 +159,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Write.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
