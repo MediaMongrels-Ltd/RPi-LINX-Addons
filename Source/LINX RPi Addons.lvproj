@@ -94,6 +94,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Chip Drivers" Type="Folder">
 			<Item Name="ADC" Type="Folder">
+				<Item Name="LINX-ADS1256.lvclass" Type="LVClass" URL="../ADS1256 ADC/LINX-ADS1256.lvclass"/>
 				<Item Name="LINX-ADS1X15.lvclass" Type="LVClass" URL="../LINX-ADS1015/LINX-ADS1X15.lvclass"/>
 			</Item>
 			<Item Name="Environmental" Type="Folder">
@@ -117,6 +118,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Low-Level" Type="Folder">
 			<Item Name="LINX GPIO.lvclass" Type="LVClass" URL="../GPIO/LINX GPIO.lvclass"/>
 			<Item Name="LINX I2C.lvclass" Type="LVClass" URL="../LINX I2C/LINX I2C.lvclass"/>
+			<Item Name="LINX SPI.lvclass" Type="LVClass" URL="../LINX SPI/LINX SPI.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Hats" Type="Folder">
