@@ -93,9 +93,10 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Chip Drivers" Type="Folder">
-			<Item Name="ADC" Type="Folder">
+			<Item Name="ADC/DAC" Type="Folder">
 				<Item Name="LINX-ADS1256.lvclass" Type="LVClass" URL="../ADS1256 ADC/LINX-ADS1256.lvclass"/>
 				<Item Name="LINX-ADS1X15.lvclass" Type="LVClass" URL="../LINX-ADS1015/LINX-ADS1X15.lvclass"/>
+				<Item Name="LINX-DAC8552.lvclass" Type="LVClass" URL="../LINX-DAC8552/LINX-DAC8552.lvclass"/>
 			</Item>
 			<Item Name="Environmental" Type="Folder">
 				<Item Name="Barometer" Type="Folder">
@@ -135,6 +136,7 @@ AddOutputFilter chunkFilter
 				<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
 			</Item>
 		</Item>
+		<Item Name="DAC8552 Example.vi" Type="VI" URL="../Examples/DAC8552 Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
