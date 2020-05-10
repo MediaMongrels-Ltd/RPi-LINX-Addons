@@ -111,10 +111,14 @@ AddOutputFilter chunkFilter
 				<Item Name="LINX-PCA9685 PWM.lvclass" Type="LVClass" URL="../LINX-PCA9685 PWM/LINX-PCA9685 PWM.lvclass"/>
 				<Item Name="LINX-SN3218.lvclass" Type="LVClass" URL="../LINX-SN3218/LINX-SN3218.lvclass"/>
 			</Item>
+			<Item Name="Capacitive" Type="Folder">
+				<Item Name="CAP1208.lvclass" Type="LVClass" URL="../CAP1208/CAP1208.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Hats" Type="Folder">
 			<Item Name="LINX-AutomationHat.lvclass" Type="LVClass" URL="../LINX-AutomationHat/LINX-AutomationHat.lvclass"/>
 			<Item Name="LINX-SenseHat.lvclass" Type="LVClass" URL="../LINX-SenseHat/LINX-SenseHat.lvclass"/>
+			<Item Name="LINX-ExplorerHatPro.lvclass" Type="LVClass" URL="../LINX-ExplorerHatPro/LINX-ExplorerHatPro.lvclass"/>
 		</Item>
 		<Item Name="Low-Level" Type="Folder">
 			<Item Name="LINX GPIO.lvclass" Type="LVClass" URL="../GPIO/LINX GPIO.lvclass"/>
@@ -125,18 +129,20 @@ AddOutputFilter chunkFilter
 			<Item Name="Hats" Type="Folder">
 				<Item Name="Automation Hat Example.vi" Type="VI" URL="../Examples/Automation Hat Example.vi"/>
 				<Item Name="Sense Hat Example.vi" Type="VI" URL="../Examples/Sense Hat Example.vi"/>
+				<Item Name="Explorer Hat Pro Example.vi" Type="VI" URL="../Examples/Explorer Hat Pro Example.vi"/>
 			</Item>
 			<Item Name="Chips" Type="Folder">
 				<Item Name="ADS1X15 Example.vi" Type="VI" URL="../Examples/ADS1X15 Example.vi"/>
 				<Item Name="ADS1256 Example.vi" Type="VI" URL="../Examples/ADS1256 Example.vi"/>
 				<Item Name="PCA9685 Servo Test.vi" Type="VI" URL="../Examples/PCA9685 Servo Test.vi"/>
+				<Item Name="DAC8552 Example.vi" Type="VI" URL="../Examples/DAC8552 Example.vi"/>
 				<Item Name="SN3218 Example.vi" Type="VI" URL="../Examples/SN3218 Example.vi"/>
 				<Item Name="HTS221 Example.vi" Type="VI" URL="../Examples/HTS221 Example.vi"/>
 				<Item Name="LSM9DS1 IMU Example.vi" Type="VI" URL="../Examples/LSM9DS1 IMU Example.vi"/>
 				<Item Name="LPS Example.vi" Type="VI" URL="../Examples/LPS Example.vi"/>
+				<Item Name="CAP1208 Example.vi" Type="VI" URL="../Examples/CAP1208 Example.vi"/>
 			</Item>
 		</Item>
-		<Item Name="DAC8552 Example.vi" Type="VI" URL="../Examples/DAC8552 Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
